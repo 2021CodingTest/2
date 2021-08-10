@@ -4,8 +4,7 @@ using namespace std;
 
 int main()
 {
-	int N, F, value;
-	int num1;
+	int N, F, value,num1;
 	cin >> N >> F;
 	num1 = (N / 100) * 100;
 	value = (num1 / F) * F;
